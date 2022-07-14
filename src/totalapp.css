@@ -1,0 +1,18 @@
+button:hover {
+  cursor: pointer;
+}
+.searchbox {
+  font-size: 30px;
+}
+input:placeholder-shown {
+  font-size: 20px;
+}
+.pages {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  padding: 0px;
+  height: 45px;
+  border: none;
+}

@@ -1,0 +1,38 @@
+.items {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  /* grid-templ */
+}
+.btnparent {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  text-decoration: none;
+  /* text-align: center; */
+  display: inline-block;
+  background-color: #03acfa;
+  color: white;
+}
+.btn:hover {
+  background-color: rgb(3, 73, 105);
+}
+
+@media screen and (max-width: 1350px) {
+  .items {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .items {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .items {
+    grid-template-columns: auto;
+  }
+}
